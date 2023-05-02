@@ -1,0 +1,97 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    text-align: center;
+}
+body {
+    margin: 50px;
+    background-color: #F5F5F5;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32pt;
+    text-align: center;
+    padding: 25px;
+}
+.flexContainer h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20pt;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.flexContainer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.flexContainer img {
+    width: 80%;
+}
+.flexContainer div {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: darkgray;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 40% 40%;
+    justify-content: center;
+    margin: 20px;
+    row-gap: 40px;
+}
+.myWork {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px;
+}
+.myWork h1 {
+    padding-top: 50px;
+}
+.myWork h4 {
+    font-size: 20pt;
+}
+button {
+    text-decoration: underline;
+    padding: 10px;
+    border-style: none;
+    background-color: white;
+}
+.myWork p, button {
+    font-size: 12pt;
+}
+.myWork p, h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.myWork h3 {
+    font-size: 16pt;
+    padding: 50px;
+}
+.workGrid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline-style: solid;
+    outline-color: darkgray;
+}
+.case1, .case2 {
+    outline-style: solid;
+    outline-color: darkgray;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    /*css styles for grid template area here */
+        body {background-color: #CF9D9D;}
+        .workGrid {
+            grid-template-rows: 300px 300px;
+            grid-template-columns: 1fr 1fr;
+            margin: 0px 5%;
+        }
+        section {
+            margin: 0px 5%;
+        }
+    }
