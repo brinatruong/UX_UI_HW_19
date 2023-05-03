@@ -3,28 +3,28 @@
     flex-direction: row;
     justify-content: center; 
     text-align: center;
+    margin-bottom: 165px;
 }
 body {
-    margin: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
     background-color: #F5F5F5;
+    font-family: 'Open Sans', sans-serif;
 }
 h1 {
-    font-family: 'Open Sans', sans-serif;
     font-size: 32pt;
     text-align: center;
     padding: 25px;
 }
 .flexContainer h3 {
-    font-family: 'Open Sans', sans-serif;
     font-size: 20pt;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 .flexContainer p {
-    font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .flexContainer img {
     width: 80%;
@@ -37,15 +37,13 @@ h1 {
 .workGrid {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 40% 40%;
+    grid-template-rows: 50% 50%;
     justify-content: center;
     margin: 20px;
     row-gap: 40px;
 }
 .myWork {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    margin: 50px;
 }
 .myWork h1 {
     padding-top: 50px;
@@ -68,7 +66,7 @@ button {
 }
 .myWork h3 {
     font-size: 16pt;
-    padding: 50px;
+    margin-top: 25%;
 }
 .workGrid img {
     width: 100%;
@@ -85,13 +83,65 @@ button {
 
 @media only screen and (max-width: 600px) {
     /*css styles for grid template area here */
-        body {background-color: #CF9D9D;}
+        body {
+            background-color: #CF9D9D;
+            margin: 0px 5%;
+        }
         .workGrid {
             grid-template-rows: 300px 300px;
             grid-template-columns: 1fr 1fr;
             margin: 0px 5%;
         }
-        section {
-            margin: 0px 5%;
-        }
     }
+
+.attributes {
+    font-size: 10pt;
+    color: #CF9D9D;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.eventListener {
+    background-color: lightgray;
+    border-radius: 25px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.image1 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.image2 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.eventListener h1 {
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+.eventListener h3 {
+    text-align: center;
+    font-size: 24pt;
+    margin-bottom: 0%;
+}
+ul {
+    margin: 129px;
+    font-size: 14pt;
+}
+.meat1 {
+    text-indent: -36px; 
+    padding-left: 36px;
+    display: none;
+}
+.meat2 {
+    padding: 146px;
+    font-size: 14pt;
+    display: none;
+}
