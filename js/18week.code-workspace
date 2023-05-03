@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "18week",
+			"path": "../../18week"
+		},
+		{
+			"name": "MyCode2",
+			"path": "../../17week/MyCode2"
+		},
+		{
+			"path": "../../19week/19.1-activities"
+		},
+		{
+			"path": "../../HW17_Template"
+		},
+		{
+			"path": "../../UX_UI_HW_18"
+		},
+		{
+			"path": "../../19week"
+		},
+		{
+			"path": "../../20week"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UX_UI_HW_19"
+	}
+}
